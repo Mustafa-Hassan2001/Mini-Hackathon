@@ -1,0 +1,151 @@
+* {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+.upper-navbar .navbar {
+  padding: 0;
+}
+.social ul {
+  display: flex;
+  grid-gap: 15px;
+  margin-bottom: 0;
+}
+.social ul li a {
+  color: rgb(189, 183, 183);
+  font-size: 1.1em;
+}
+.social ul li a:hover {
+  color: red;
+}
+.contact ul {
+  display: flex;
+  align-items: center;
+  grid-gap: 15px;
+  margin-bottom: 0;
+}
+
+.contact ul li a {
+  color: rgb(189, 183, 183);
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.lower-navbar ul li a {
+  font-weight: bold;
+}
+.lower-navbar ul li:hover {
+  background-color: rgb(228, 218, 218);
+}
+.navbar-light .navbar-nav .nav-link.active:hover {
+  color: red;
+}
+.drops {
+  background-color: #e12454;
+  display: flex;
+  right: 0px;
+  align-items: center;
+}
+.drops:focus{
+  color: rgb(189, 183, 183);
+}
+.dropdownn {
+  background-color: #e12454;
+  color: white;
+}
+
+.lower-navbar .navbar {
+  padding-top: 0;
+}
+
+.lower-navbar .search {
+  color: rgb(189, 183, 183);
+}
+.lower-navbar .search .cart {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid rgb(189, 183, 183);
+  font-size: 1.2em;
+}
+.lower-navbar .search .cart:hover{
+  color: #e12454;
+}
+
+.appoint{
+  border-radius: 0px;
+}
+.btn:hover{
+  background-color: #223645;
+  color: white;
+  outline: none;
+}
+.cards .card span{
+  color: #e12454;
+}
+.cards{
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+/* WHAT WE DO */
+.title-watermark {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -60px;
+  z-index: -1;
+  line-height: 1;
+  color: #c6cdd3;
+  font-weight: 600;
+  font-size: 200px;
+  font-family: "Poppins";
+  overflow: hidden;
+}
+/* WHAT WE DO */
+
+.backup{
+  background-image: url("images/appointment.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+.backup::after{
+  position: absolute;
+    background-color: rgb(146, 23, 85);
+    z-index: 1;
+}
+.forms{
+    border: none;
+    padding-left: 10px;
+    box-shadow: none;
+
+
+}
+.doo{
+
+    border: 1px solid black; 
+    margin: 10px;
+}
+.forms{
+  border: none;
+  padding-left: 10px;
+  box-shadow: none;
+
+
+}
+.doo{
+
+  border: 1px solid black; 
+  margin: 10px;
+}
+
+.report{   
+  background-image: url("images/report.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
